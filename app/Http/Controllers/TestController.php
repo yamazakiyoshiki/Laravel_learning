@@ -10,6 +10,8 @@ class TestController extends Controller
 {
     public function index() {
 
+        dd('test');
+
         // Eloquent
         $values = Test::all();
 
